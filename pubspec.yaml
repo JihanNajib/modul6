@@ -1,0 +1,25 @@
+name: nama_project_kamu
+description: A new Flutter project.
+
+# Versi SDK Flutter yang digunakan
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Icon iOS bawaan Flutter
+  cupertino_icons: ^1.0.8
+
+  # Tambahkan paket HTTP untuk koneksi ke API
+  http: ^1.2.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
